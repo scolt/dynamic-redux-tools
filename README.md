@@ -1,6 +1,6 @@
 # Dynamic Redux Tools
 This module is a wrapper around createStore from redux-toolkit.
-It provides ability to add reducers/middleware asynchronously.
+It provides the ability to add reducers/middleware asynchronously.
 
 ## How to use
 
@@ -11,7 +11,7 @@ It provides ability to add reducers/middleware asynchronously.
 ### Configuration
 Global configuration:
 ````
-import { configureGlobalStore } from '@sprout-mortgage/bcp-redux-toolkit';
+import { configureGlobalStore } from 'dynamic-redux-tools';
 
 export const store = configureGlobalStore({
   reducer: {
